@@ -3,10 +3,9 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />
-  
   <ItemDefinitionGroup Condition="'$(Platform)'=='Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(OF_ROOT)\addons\ofxEntityX\src;$(OF_ROOT)\addons\ofxEntityX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(OF_ROOT)\addons\ofxEntityX\src;$(OF_ROOT)\addons\ofxEntityX\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(OF_ROOT)\addons\ofxEntityX\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -21,10 +20,9 @@
       </AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
-  
   <ItemDefinitionGroup Condition="'$(Platform)'=='x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(OF_ROOT)\addons\ofxEntityX\src;$(OF_ROOT)\addons\ofxEntityX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(OF_ROOT)\addons\ofxEntityX\src;$(OF_ROOT)\addons\ofxEntityX\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(OF_ROOT)\addons\ofxEntityX\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -39,6 +37,5 @@
       </AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
-  
   <ItemGroup />
 </Project>
