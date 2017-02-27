@@ -9,7 +9,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(OF_ROOT)\addons\ofxEntityX\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>entityx-d.lib</AdditionalDependencies>
+      <AdditionalDependencies>entityx-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Lib>
       <AdditionalDependencies>
@@ -26,7 +26,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(OF_ROOT)\addons\ofxEntityX\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>entityx-d.lib</AdditionalDependencies>
+      <AdditionalDependencies>entityx-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Lib>
       <AdditionalDependencies>
