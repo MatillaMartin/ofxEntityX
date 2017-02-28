@@ -14,6 +14,7 @@ using entityx::EntityDestroyedEvent;
 using entityx::EntityManager;
 using entityx::Event;
 using entityx::EventManager;
+using entityx::Receiver;
 using entityx::System;
 using entityx::SystemManager;
 using entityx::TimeDelta;
